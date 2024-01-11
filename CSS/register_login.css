@@ -1,0 +1,63 @@
+body{
+    background-image:url("logoarayaz.jpg");
+    border: 30px;
+    
+}
+.form{
+    border-radius: 20px;
+    border: 20px  #5db1e6;
+    background-color: #b8f1f1;
+    width: 30%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.h2{
+    margin-top: 10%;
+    text-align: center;
+}
+#register{
+    background-color: rgb(42, 165, 104);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#cancel{
+    background-color: rgb(42, 147, 165);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.container{
+  margin-top:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+}
+
+.input{
+    
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+input[type=text],input[type=password], input[type=number],input[type=email], input[type=text]{
+   width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(176, 236, 176);
+  border-radius: 15px;
+  box-sizing: border-box;
+
+}
+input[type=submit],input[type=reset]{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    margin-bottom: 25px;
+    
+}
+
